@@ -1,17 +1,5 @@
 function : void foo(){
 	int x;
 	bool y;
-	float z;
-	char u;
-	
-	x + z;
-	z + x;
-	
 	x + y;
-	y + y;
-	y + x;
-	z + y;
-	y + z;
-	u + y;
-	y + u;
 }
