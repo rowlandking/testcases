@@ -1,0 +1,74 @@
+int i;
+bool b;
+float f;
+int* iPtr;
+bool* bPtr;
+float* fPtr;
+
+typedef float FOO; 
+typedef FOO* FPTR; 
+typedef int* IPTR; 
+int x1;
+FOO y1; 
+FPTR z1; 
+int* intPtr1;
+
+
+const int ic = 1;
+const bool bc = true;
+const float fc = 2.0;
+const int* iPtr2c = 3;
+
+structdef ASDF{ int x;};
+int[10] arr;
+
+ASDF asdf;
+function : int main() { 
+	i = (int) b; 
+	f = (float) b;
+	iPtr = (int*) b;
+	
+	b = (bool) i;
+	b = (bool) f;
+	b = (bool) iPtr;
+	b = (bool) bPtr;
+	b = (bool) fPtr;
+	
+	i =  (int) f;
+	iPtr = (int*) f;
+	fPtr = (float*) f;
+	bPtr = (bool*) f;
+	
+	f =  (float) i;
+	f =  (float) iPtr;
+	f =  (float) fPtr;
+	f =  (float) bPtr;
+	
+	i = (int) iPtr;
+	
+	x1 = (int) y1; 
+ 	x1 = (int) (x1 + 4.9); 
+ 	y1 = (FOO) (int) (65.3); 
+ 	intPtr1 = (IPTR) z1; 
+	
+	i = (int) bc; 
+	f = (float) bc;
+	iPtr = (int*) bc;
+	
+	i = (int) f;
+	b = (float) f;
+	iPtr =(int*) f;
+	
+	i = (int) iPtr;
+	f = (float) iPtr;
+	b = (float) iPtr;
+	
+	f = (float) i;
+	b = (float) i;
+	iPtr =(int*) i;
+	
+	f = (float) arr;
+	//f = (float) asdf;
+	
+ return 0; 
+} 
