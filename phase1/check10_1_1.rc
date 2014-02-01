@@ -1,0 +1,12 @@
+typedef int[5] X;
+X[2] c;
+float y = 55.5;
+bool t;
+function: void main(){
+int q;
+q = sizeof(X); //
+q = sizeof(c); //40
+q = sizeof(y);
+q = sizeof(t);
+
+}
