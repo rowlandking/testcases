@@ -1,3 +1,9 @@
-Error, "phase1/check13/check13a_1.rc": 
-  Identifier x is undeclared in the global scope.
+Error, "phase1/check13/check13a_1_BAD.rc": 
+  Field x declared second time in struct.
+Error, "phase1/check13/check13a_1_BAD.rc": 
+  Field x declared second time in struct.
+Error, "phase1/check13/check13a_1_BAD.rc": 
+  Field y declared second time in struct.
+Error, "phase1/check13/check13a_1_BAD.rc": 
+  Field w declared second time in struct.
 Compile: failure.

@@ -1,5 +1,8 @@
-int myX;
-function : void foo(){
-	int x;
-	int i = ::x;
-}
+structdef MYS { 
+ int x, y; 
+ int x; // duplicate id x, error #1 
+ int z, x; // duplicate id x, error #2 
+ float y; // duplicate id y, error #3 
+ int w; 
+ int w; // duplicate id w, error #4 
+ }; 

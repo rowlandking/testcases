@@ -1,15 +1,3 @@
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type bool to binary operator +, numeric expected.
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type bool to binary operator +, numeric expected.
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type bool to binary operator +, numeric expected.
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type bool to binary operator +, numeric expected.
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type bool to binary operator +, numeric expected.
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type char to binary operator +, numeric expected.
-  Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
-    Incompatible type bool to binary operator +, numeric expected.
-  Compile: failure.
+Error, "phase1/check1/check1_1_TPLUS_Bad_1.rc":
+  Incompatible type bool to binary operator +, numeric expected.
+Compile: failure.
