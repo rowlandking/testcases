@@ -56,15 +56,15 @@ function : int main() {
 	iPtr = (int*) bc;
 	
 	i = (int) f;
-	b = (float) f;
+	b = (bool) f;
 	iPtr =(int*) f;
 	
 	i = (int) iPtr;
 	f = (float) iPtr;
-	b = (float) iPtr;
+	b = (bool) iPtr;
 	
 	f = (float) i;
-	b = (float) i;
+	b = (bool) i;
 	iPtr =(int*) i;
 	
 	f = (float) arr;
