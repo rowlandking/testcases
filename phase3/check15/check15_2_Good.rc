@@ -1,0 +1,17 @@
+structdef MS { 
+ int a;
+ int b; 
+ int * c;
+}; 
+int x; 
+MS* msptr;
+MS q;
+int * intPtr;
+function : void main() { 
+	(*msptr).a = x;
+	(*msptr)=q;
+	msptr->a = x;
+	(msptr->c) = intPtr;
+	*(msptr->c) = x;
+ 	*intPtr = x;
+}
